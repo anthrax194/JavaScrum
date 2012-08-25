@@ -1,0 +1,58 @@
+1.	Requirements 
+	a.	What does the application do?
+	-File (first name field, last name field, email address)(CSV FORMAT)(1 file single list)(un-sorted)
+	
+		-1. Create Record 
+		-2. Read Records
+		-3. Update Record
+		-4. Delete Record
+	b.	Use Cases
+		1.	Create Record
+			1.	Start up the application
+			2.	Select choice 1 from the menu by typing 1 and pressing enter.
+			3.	Type First Name and press enter.
+			4.	Type Last Name and press enter.
+			5.	Type Email and press enter.
+			6.	“Write Successful” will be displayed if successful.
+		2.	Output Records
+			1.	Start up application
+			2.	Select choice 2 from the menu by typing 2 and pressing enter.
+			3.	The records will output
+		3.	Update Record
+			1.	Start up application
+			2.	Select choice 3 from the menu by typing 3 and pressing enter.
+			3.	The records will output with preceding numbers.
+			4.	Type in the number next to the record you’d like to update and press enter.
+			5.	Enter the number of the field you would like to change.
+			6.	Enter the change
+			7.	Should now say update successful.
+		4.	Delete Record
+			1.	Start up the application
+			2.	Select choice 4 from the menu by typing 4 and pressing enter.
+			3.	The records will output with preceding numbers.
+			4.	Type in the number of the field you would like to change.
+			5.	Enter the change.
+			6.	Should now say delete successful.
+		5.	Exit program
+			1.	When in main menu press 5.
+
+2.	Specification 
+	 .	Design Structure
+		 .	What does it look like?
+			a.	Console Listed Menu
+3.	Architecture 
+ 	.	The basic flow of the application
+		a.	The View and Control are combined into the FileModRunner class
+		b.	The Model is the FileModifier class
+		c.	The two classes have been abstracted from eachother, any other class can still call operations on the File Modifier class, perhaps for a dump of a lot of data into the file instead 
+			of simply a program that allows someone to input into the file.
+4.	Design 
+5.	Implementation
+6.	Testing
+ .	Simple testing by trying out each operation.
+7.	Debugging
+ .		An error was found where updating a record and deleting a record created a blank record and fixed.
+8.	Deployment 
+9.	Maintenance
+
+
